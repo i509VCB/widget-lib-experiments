@@ -1,0 +1,7 @@
+[package]
+name = "widget-lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tinyvec = { version = "1.5.1", default-features = false, features = ["alloc", "rustc_1_55"] }
